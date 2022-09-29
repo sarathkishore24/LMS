@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="icon" type="image" href="icon.png">
+        <title>SIET lib</title>
+        <style>
+            body{
+                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                color: black;
+                background-image: url('WP4.jpg');
+                background-repeat: no-repeat;
+                background-attachment: fixed;
+                background-size: cover;
+            }
+            button{
+                background-color: rgb(217, 130, 8);
+                width: 100%;
+                color: black;
+                padding: 10px;
+                margin: 15px 2px;
+                border: none;
+                cursor: pointer;
+            }
+            input[type=text],input[type=password]{
+                width: 100%;
+                margin: 8px 0px;
+                padding: 12px 10px;
+                display: inline-block;
+                border: 2px solid yellow;
+                box-sizing: border-box;
+                color: blue;
+                background-color: white;
+            }
+            button:hover{
+                opacity: 0.7;
+            }
+            .cancelbtn{
+                width: auto;
+                padding: 10px 18px;
+                margin: 10px 5px;
+                background-color: red;
+            }
+            .container{
+                border: 3px solid black;
+                padding: 25px;
+                background-color: rgb(0, 128, 255);
+                margin-left: 550px;
+                margin-right: 450px;
+                margin-top: 120px;
+            }
+            label{
+                color: black;
+            }
+            h5{
+                color: white;
+                text-align: center;
+                font-size: 15px;
+            }
+        </style>
+    </head>
+    <body>
+        <form>
+            <div class="container">
+                <center><h1>Forget your password..?</h1></center>
+                <center><h3 style="margin-top: 5px;margin-bottom: 50px;">Enter your registered mail id</h3></center>
+                <label>Email :</label>
+                <input type="text" placeholder="Enter Email" name="email" required>
+                <a href="#"><button type="button">Reset Password</button></a>
+                <h5>New here? <a href="../Library Management System/sign up.html" style="color:white;">Sign Up.</a></h5>
+                <h5>Already have an account? <a href="../Library Management System/login page.html" style="color:white;">Login.</a></h5>
+            </div>
+        </form>
+    </body>
+</html>
